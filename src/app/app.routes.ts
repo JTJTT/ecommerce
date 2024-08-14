@@ -3,7 +3,7 @@ import { HomepageComponent } from './components/homepage/homepage.component';
 
 export const routes: Routes = [
     {
-        path:"home",
+        path:"homepage",
         component: HomepageComponent
     },
     {
