@@ -1,12 +1,25 @@
 <header>
-    <div id="">
+    <div id="gen">
+        <li>
+            <a routerLink="/homepage" routerLinkActive="active">Homepage</a>
+        </li>
+        <li>
+            <a routerLink="/products" routerLinkActive="active">Products</a>
+            <ul>
+                <li><a routerLink="/hats" routerLinkActive="active">hats</a></li>
+                <li><a routerLink="/pants" routerLinkActive="active">pants</a></li>
+                <li><a routerLink="/shrits" routerLinkActive="active">shirts</a></li>
+            </ul>
+        </li>
         <body>
             
         </body>
-    <form>
-        <input class="search" type="text" placeholder="Search Bar" name="search" />
-        <button class="primary" type="submit">search</button>
-    </form>
+        <li id="search">
+            <form>
+                <input class="search" type="text" placeholder="Search Bar" name="search" />
+                <button class="primary" type="submit">search</button>
+            </form>
+        </li>
     </div>
 </header>
 <router-outlet></router-outlet>

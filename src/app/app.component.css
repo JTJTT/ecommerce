@@ -1,3 +1,29 @@
 body {
     background-color: rgb(255, 255, 255);
 }
+#gen {
+    display:flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+#gen ul{
+    padding: 2px;
+    margin:0;
+}
+
+header {
+    top:0;
+    left:0;
+    width:100%;
+    background-color: deepskyblue;
+    border: solid;
+    z-index: 999;
+}
+
+#search {
+margin-right:auto;
+}
+
+#search button {
+margin:10px;
+}
